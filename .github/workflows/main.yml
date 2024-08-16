@@ -26,11 +26,13 @@ jobs:
       - name: Run npm build
         run: npm run build
         
-      - name: Publish
+      - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: test-project # e.g. 'my-project'
-          directory: dist # e.g. 'dist'
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          projectName: test-project
+          directory: dist
+          # Optional: Enable this if you want to have GitHub Deployments triggered
+          #gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
