@@ -7,7 +7,7 @@ export async function onRequestPost(request) {
     if (psk === PRESHARED_AUTH_HEADER_VALUE) {
       // Correct preshared header key supplied. Fetch request from origin.
       //return fetch(request);
-      return new Response('well done')
+      return new Response('well done');
     }
 
     // Incorrect key supplied. Reject the request.
