@@ -1,6 +1,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = config => {
   config.addPassthroughCopy("chinese/index.html");
+  config.addPassthroughCopy('functions');
   config.addCollection('post', collection => {
     return collection
       .getFilteredByGlob('./src/posts/*.md')
