@@ -1,6 +1,8 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 module.exports = config => {
   config.addPassthroughCopy("chinese/index.html");
+  config.addPassthroughCopy("thesis/index.html");
+  config.addPassthroughCopy("thesis.pdf");
   config.addPassthroughCopy('functions');
   config.addCollection('post', collection => {
     return collection
