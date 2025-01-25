@@ -20,7 +20,8 @@ While all three claim to be satire they all call into question perceptions of mo
 
 ### The first site
 
-Being pure HTML, the first site is the most extreme of the three when considered against many of the modern sites one normally uses. 
+Comprising a single HTML file, the first site is the most extreme of the three when considered against most modern websites. The site has no styling, and quite tersely proposes that 
+any styling is a waste of time. 
 
 ### The second site
 
