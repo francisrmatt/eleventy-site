@@ -12,15 +12,15 @@ This website uses [11ty](https://www.11ty.dev/), a static site generator. Markdo
 
 Below are three websites, the latter two made in reference to the previous.
 
-- https://motherfuckingwebsite.com/
-- http://bettermotherfuckingwebsite.com/
-- https://thebestmotherfucking.website/
+- [https://motherfuckingwebsite.com/](https://motherfuckingwebsite.com/)
+- [http://bettermotherfuckingwebsite.com/](http://bettermotherfuckingwebsite.com/)
+- [https://thebestmotherfucking.website/](https://thebestmotherfucking.website/)
 
 While all three claim to be satire they all call into question perceptions of modern web design.
 
 ### The first site
 
-Pure HTML.
+Being pure HTML, the first site is the most extreme of the three when considered against many of the modern sites one normally uses. 
 
 ### The second site
 

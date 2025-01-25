@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- -->
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ title }}</title>
     <style media="screen">
+
+        :root {
+            --coquelicot: #f15025ff;
+            --white: #ffffffff;
+            --platinum: #e6e8e6ff;
+            --timberwolf: #ced0ceff;
+            --eerie-black: #191919ff;
+        }
 
         body{
             margin:40px auto;
@@ -15,12 +25,17 @@
             font-size:18px;
             color:#444;
             padding:0 10px;
-            background-color: #eeeeee;
+            background-color: var(--platinum);
         }
 
         h1,h2,h3 {
             line-height: 1.2;
         }
+
+        a {
+            color: var(--coquelicot);
+        }
+
     </style>
 
 </head>
