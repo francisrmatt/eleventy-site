@@ -73,7 +73,7 @@ Many of the design elements have been inspired by the sites I've visited from:
 - [512KB Club](https://512kb.club/)
 - [250KB Club](https://250kb.club/)
 - [1kB Club](https://1kb.club/)
-- https://textonly.website/
+- [https://textonly.website/](https://textonly.website/)
 
 ## Pet peeves
 
