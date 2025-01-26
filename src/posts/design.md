@@ -6,7 +6,7 @@ displayOrder: 1
 
 ## Colophon
 
-This website uses [11ty](https://www.11ty.dev/), a static site generator. Markdown files are edited using [Obsidian](https://obsidian.md/) and are pushed to a [Github Repository](https://github.com/francisrmatt/eleventy-site) which runs a Github 'action', running 11ty to generate the HTML from the markdown and layout template files. The output HTML is deployed to [Cloudflare Pages](https://pages.cloudflare.com/). 
+This website uses [11ty](https://www.11ty.dev/), a static site generator. Markdown files are edited using [Obsidian](https://obsidian.md/) and are pushed to a [Github Repository](https://github.com/francisrmatt/eleventy-site) which runs a Github 'action', running 11ty to generate the HTML from the markdown and layout template files. The output HTML is deployed to [Cloudflare Pages](https://pages.cloudflare.com/). I have tried to ensure as much processing is done server-side.
 
 ## Design philosophy
 
@@ -42,8 +42,52 @@ If webmasters ensure their site has properly used HTML tagging to layout their c
 
 ### The second site
 
-With some CSS.
+The second site introduces seven CSS declarations which it argues makes the site far more readable. I agree, and if someone uses a graphical internet browser they should enjoy the benefits that come with graphical rendering, otherwise one may as well be in a terminal. The second site is what this website is based on and has all the benefits of the previous site while only adding minuscule data to the payload. The most important takeaways are: line-width should only be 60-80 characters, contrast should not be as extreme, and line-heights should be generous to ensure proper spacing. 
 
+For example, [Dan Luu](https://danluu.com/) is a great blogger but there is no reason to keep everything purely HTML.
 ### The third site
 
-Added Javascript.
+The third takes is futher and adds Javascript which [some people](https://www.gnu.org/philosophy/javascript-trap.en.html) think is a moral wrong. I'm not sure I agree as the two features javascript adds to this site are a dark-mode, and a higher contrast mode, both great for readability. Most importantly, quoting the site:
+
+> Freaks who are scared of JavaScript will feel safe here since the website doesn't need to have JS enable to be properly rendered
+
+PS: You can animate text without javascript using the `animation` tag in CSS.
+
+## Features a blog should or could have
+
+- Date of article
+- Date of latest amendment to article (potentially a way to see a diff as well)
+- Extensive links to articles or pages you wrote to create a well-networked mesh
+
+### Features I like but don't yet have
+
+- [Webmentions](https://indieweb.org/Webmention)
+- RSS feed
+- A [guestbook](https://t0.vc/g/)
+
+## Subculture
+
+Many of the design elements have been inspired by the sites I've visited from:
+
+- [1MB Club](https://1mb.club/)
+- [512KB Club](https://512kb.club/)
+- [250KB Club](https://250kb.club/)
+- [1kB Club](https://1kb.club/)
+- https://textonly.website/
+
+## Pet peeves
+
+### Tech-bro speak
+
+There is a certain style of writing which I see on many personal websites and Reddit comments which overuses filler language, exclamation marks, and italics. I suspect this is need for unambiguous emphasis is to compensate for lower quality writing or an ability to crystallise your point in a terse manner. Furthermore, some people are prone to use words or phrases only people who are chronically online would be aware of. My favourite example is calling your personal site your 'digital abode' or 'second brain.'
+
+### Unnecessary information
+
+A blog doesn't need to start with a paragraph explaining that this is your personal blog.
+
+### Capitalisation
+
+The words in titles and headings do not have to have their first letter capitalised. On the flip-side there are websites that are obsessed with not capitalising at all, going for a minimal and modern feel. This makes reading the website difficult.
+
+
+
